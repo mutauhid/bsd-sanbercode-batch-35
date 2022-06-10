@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(217, 223, 227);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 30%;
+  height: fit-content;
+  background-color: white;
+}
+
+img {
+  margin: 20px auto;
+}
+
+.tittle {
+  color: rgb(129, 125, 125);
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+span {
+  border-bottom: 1px solid grey;
+  display: block;
+  width: 95%;
+  padding-bottom: 10px;
+}
+
+.checkbox {
+  flex-direction: column;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.checkboxlist {
+  margin: 10px;
+  padding: 5px;
+  border-bottom: 1px solid rgb(214, 208, 208);
+}
+
+.input:checked {
+  color: blue;
+}
+
+input {
+  margin-right: 10px;
+}
+
+button {
+  background-color: rgb(31 172 255);
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: red;
+}
